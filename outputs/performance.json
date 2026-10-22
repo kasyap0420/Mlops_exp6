@@ -3,10 +3,10 @@
   "successful_predictions": 998,
   "failed_records": 3,
   "output_rows_match_successful": true,
-  "total_time_sec": 0.9202,
-  "prediction_only_time_sec": 0.0334,
-  "avg_time_per_record_ms": 0.9192,
-  "throughput_records_per_sec": 1084.6,
+  "total_time_sec": 1.1898,
+  "prediction_only_time_sec": 0.0666,
+  "avg_time_per_record_ms": 1.1886,
+  "throughput_records_per_sec": 838.8,
   "model_version": "v1.0",
-  "run_timestamp": "2026-10-22 11:37:34"
+  "run_timestamp": "2026-10-22 17:45:14"
 }
