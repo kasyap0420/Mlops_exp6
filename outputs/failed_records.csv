@@ -1,0 +1,4 @@
+row_index,record_id,reason
+1000,REC0031,duplicate record
+10,REC0011,non-numeric value in 'mean area'
+20,REC0021,negative value (invalid)

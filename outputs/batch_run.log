@@ -1,0 +1,9 @@
+2026-10-22 11:37:34,014 | INFO | Loaded model version v1.0 (30 features)
+2026-10-22 11:37:34,020 | INFO | Read 1001 input records from data/batch_input.csv
+2026-10-22 11:37:34,049 | WARNING | 1 valid rows have missing values -> handled by pipeline imputer
+2026-10-22 11:37:34,051 | INFO | Validation: 998 valid, 3 failed
+2026-10-22 11:37:34,051 | ERROR | Rejected row 1000 (REC0031): duplicate record
+2026-10-22 11:37:34,051 | ERROR | Rejected row 10 (REC0011): non-numeric value in 'mean area'
+2026-10-22 11:37:34,052 | ERROR | Rejected row 20 (REC0021): negative value (invalid)
+2026-10-22 11:37:34,090 | INFO | Saved predictions -> outputs/predictions.csv
+2026-10-22 11:37:34,090 | INFO | Performance: {'total_input_records': 1001, 'successful_predictions': 998, 'failed_records': 3, 'output_rows_match_successful': True, 'total_time_sec': 0.9202, 'prediction_only_time_sec': 0.0334, 'avg_time_per_record_ms': 0.9192, 'throughput_records_per_sec': 1084.6, 'model_version': 'v1.0', 'run_timestamp': '2026-10-22 11:37:34'}
